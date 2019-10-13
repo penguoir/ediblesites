@@ -1,0 +1,20 @@
+{
+  "name": "ediblesites",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "yarn build && next export"
+  },
+  "dependencies": {
+    "grommet": "^2.7.9",
+    "next": "9.1.1",
+    "react": "16.10.2",
+    "react-dom": "16.10.2"
+  },
+  "devDependencies": {
+    "frontmatter-markdown-loader": "^2.2.0"
+  }
+}
